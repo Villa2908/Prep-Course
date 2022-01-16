@@ -1,0 +1,33 @@
+for:
+es un operador logico que funciona como bucle.
+como sabemos los bucles son esas funciones que se ejecutan sin parar hasta cumplir algun requisito o meta.
+lo mismo pasa con "for".
+
+Syntaxis:
+    |variable |condi/meta |incremento de la variable.
+for (let a = 0; a < 10;    a++ ){
+    console.log()
+}
+
+&& = "y":
+el operador "&&" o mas conocido como "y" evaluará o revisará si las expresiones declaradas son true.
+osea verdaderas ambas, si alguna no lo es. actuamaticamente dira que es false.
+osea para poder cumplir con este operador ambas deben de ser true. Por ejemplo:
+
+let ( a = 1) ( b = 1)
+
+if (a === b){
+    return true
+} else {
+    return fase
+}
+ahi se ve que a y b valen lo mismo lo que significa que es true.
+
+|| = "O":
+el operador "||" o "o" evaluará o revisará si alguna de las expresiones dadas es true.
+si no alguna de las expresiones no es true, devolverá false.
+
+! = "NOT":
+el operador "!" o "NOT" evaluará las expresiones y devolvera lo contrario a lo que es.
+si la expresion de true, devolvera false.
+y si es false, devolverá true.

@@ -1,0 +1,41 @@
+Variables :
+Las variables son aquellos espacios a los que declaramos en la programacion.
+ejemplo: imaginemos que tenemos una hoja de cuaderno en blanco, para poder escribir en esa hoja primero debemos declarar un espacio.
+asi como si fuese un cuadrado de una hoja de matematica
+al declarar ya un cuadrado en blanco osea una variable/espacio.
+ahi recien podremos ejecutar alguna funcion, algoritmo,valor, etc...
+
+Strings:
+
+Son aquellas variables de valor texto.
+osea que son de letras o escrito.
+
+Funciones:
+
+Las funciones son todas aquellas a las que asignamos para que hagan algo.
+ hay una gran cantidad de funciones, Cada una estas puenden tener argumentos o no.
+  ejmemplo:
+  - console.log(nombre){
+      return
+  }
+
+Declaraciones:
+-Las declaraciones pueden realizar un pequeño razonamiento como (if) que en si se pregunta 
+"Si `nombre` vale 1 no vale 0"
+lo que es algo muy obvio si lo decimos de esta manera.
+Pero para poder lograr esto debemos realizarle su buena anatomia la cual puede variar pero esta es algo sencilla.
+dependiendo el problema que se nos presente.
+
+digamos que se nos presenta algo asi:
+-la "variableAVale1"
+//si la variable vale 1 devuelve "Es correcto"
+//si no devuelve "Es incorrecto"
+Codigo:
+if (A == 1){
+    return "Es correcto"
+}
+else {
+    return "Es incorrecto"
+}
+
+Ahi podemos apreciarlo... Si (if) A = 1 es correcto y si no pues obviamente no.

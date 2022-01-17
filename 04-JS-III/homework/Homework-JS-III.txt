@@ -1,0 +1,9 @@
+Arrays:
+Los Arrays son matrices
+Las podemos considerarlas como contenedores de datos.
+Pueden contener cualquier tipo de dato.
+-String
+-Number
+-Booleanos
+
+En una misma matriz podemos contenos diferentes tipos de datos, no uno solo.

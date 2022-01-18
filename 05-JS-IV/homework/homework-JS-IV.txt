@@ -1,0 +1,47 @@
+Objetos:
+Los objetos, es algo similar a lo que ya vimos (array)
+si bien sabemos los arrays son contenedores de datos, pueden ser string,number,booleanos, etc.
+los obtejos son tambien contenedores pero ellos tienen "propiedades".
+con las que podemos definir variables, declarar variables, realizar funciones (funtions), etc...
+
+Propiedades:
+Es el contenido de los objetos, pueden hacer y ser cualquier cosa adentro del mismo objeto
+
+Metodos:
+Son las funciones guardadas dentro del objeto.
+
+Bucles "for... in":
+Los Bucles "for... in" es lo mismo del bucle "for" normal.
+la syntaxis es distinta pero realiza la misma funcion que el "for"
+el bucle "for...in" funciona con los objetos
+la diferencia entre el "for" estandar o normal y el "for... in"
+a parte de la syntaxis y la funcion. Es que en los objetos
+no existen indices numericos como en los arrays
+sino "propiedades"
+con el bucle "for...in" podremos recorrer el objeto hasta llegar al objetivo o la meta como en el bucle "for" estandar
+ejemplo:
+
+const objeto = {
+    nombre: objeto,
+    edad: 10,
+    tipo: objeto
+};
+for (let variable in objeto){
+    console.log(variable)
+    console.log(objeto[varaiable]);
+}
+
+como en el objeto no existe la "propiedad" "variable".
+el bucle "for...in" recorrerá todo el objeto hasta conseguirlo, debido a que no exite 
+logueará o devolvera todo el objeto.
+
+
+Notacion de puntos vs Notacion de corchetes:
+
+Tenemos dos formas de acceder a los objetos.
+Los cuales son "Notacion de puntos" y "notacion de corchetes"
+"objeto.nombre" && "objeto[nombre]"
+
+con ambos podremos acceder a las propiedades del objeto. pero hay pros y contras con ambas
+relacionadas con algo mas complejo que aun no lo entiendo del todo como para explicarlo. (NaN).
+

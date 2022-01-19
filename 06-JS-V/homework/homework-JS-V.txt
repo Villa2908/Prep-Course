@@ -1,0 +1,22 @@
+Prototype:
+Los prototype o prototypos son como la base de todo objeto. Que estan llenos de objetos, metodos, funciones, etc.
+osea, para medio entenderlo. Imaginemos que tenemos una manzana, la manzana sabemos que es una fruta.
+imaginemos que "fruta" tiene como metodos:
+
+-color
+-sabor
+-tamaño
+
+mas o menos asi, es un ejemplo.
+ahora al crear un nuevo objeto, desde cero. su propotype o base (lo que esta lleno de metodos,etc.)
+estaria en blanco ya que es algo nuevo que creamos.
+
+creando un prototype para el objeto "fruta" con los metodos que ya mencionamos, tendriamos el prototype del objetos
+los cuales podremos acceder al al usar ".color" o el metodo que hayamos añadido al prototype de ese objeto.
+Con esto ya no tendriamos que crear los metodos individualmente literales.
+
+Constructors (de clases):
+
+Los Constructores son plantillas. sirven para tener objetos con los mismos metodos sin tener que escribirlos
+literales. algo similar a los "prototype" pero la diferencia es que el prototype es heredable 
+con el "prototype Chain" que son los prototypos ya dentro de JS o ya creados anteriormente en otros objetos.

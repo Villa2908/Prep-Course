@@ -1,0 +1,27 @@
+callbacks:
+
+Los callbacks o en español devolucion de llamada
+pueden pasar funciones como argumentos a otras funciones.
+
+osea imaginemos que tengamos una funcion "a" que tiene como argumento "argumento"
+con los callbacks ("cb") podremos hacer que el argumento de la funcion "a" sea otra funcion
+que podriamos haber ya declarado con anterioridad.
+
+ejemplo :
+
+```javascript
+function decirHolaAlUsuario(usuario) {
+  return "Hola " + usuario + "!";
+}
+
+function decirAdiosAlUsuario(usuario) {
+  return "Adiós " + usuario + "!";
+}
+
+function crearSaludo(usuario, cb) {
+  return cb(usuario);
+}
+
+crearSaludo("Dan", decirHolaAlUsuario); // 'Hello Dan!'
+crearSaludo("Dan", decirAdiosAlUsuario); // 'Goodbye Dan!'
+```

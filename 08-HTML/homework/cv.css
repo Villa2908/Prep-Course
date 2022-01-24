@@ -1,0 +1,29 @@
+html{
+    background-image: url(https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2018/08/fondos-pantalla-full-hd-animales_4.jpg);
+}
+
+h1{
+    color: blue;
+    text-align: start;
+    align-items: space-between;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+h3{
+    color: blue;
+}
+ul{
+    color: gold;
+}
+img{
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-height: 500px;
+    align-items: space-between;
+}
+p{
+    color: black;
+}
